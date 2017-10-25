@@ -1,3 +1,5 @@
-/**
- * Created by Drinkins on 24.10.2017.
- */
+import travelCardsArr from './data';
+console.log("11",travelCardsArr);
+
+
+
