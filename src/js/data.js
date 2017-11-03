@@ -16,7 +16,7 @@ let card1 = {
     },
     transport: {
         name: "Aeroexpress train",
-        seat: false
+        description: "No seat assignment"
     }
 };
 
@@ -28,6 +28,27 @@ let card2 = {
         lng: 37.771460
     },
     finish: {
+        id: 7,
+        name: "Praha Airport",
+        lat: 50.103306,
+        lng: 14.269824
+    },
+    transport: {
+        name: "flight 12237",
+        gate: "2C",
+        seat: "14A"
+    }
+};
+
+
+let card3 = {
+    start: {
+        id: 7,
+        name: "Praha Airport",
+        lat: 50.103306,
+        lng: 14.269824
+    },
+    finish: {
         id: 2,
         name: "Dublin Airport",
         lat: 53.425552,
@@ -36,11 +57,12 @@ let card2 = {
     transport: {
         name: "flight 18777D",
         gate: "1A",
-        seat: "28C"
+        seat: "28C",
+        description: "Baggage will be automatically transferred from your last leg"
     }
 };
 
-let card3 = {
+let card4 = {
     start: {
         id: 2,
         name: "Dublin Airport",
@@ -58,7 +80,7 @@ let card3 = {
     }
 };
 
-let card4 = {
+let card5 = {
     start: {
         id: 11,
         name: "Dublin Heuston Railway station",
@@ -78,7 +100,7 @@ let card4 = {
     }
 };
 
-let card5 = {
+let card6 = {
     start: {
         id: 6,
         name: "Galway Train Station",
@@ -93,11 +115,11 @@ let card5 = {
     },
     transport: {
         name: "Bus 424",
-        seat: false
+        description: "No seat assignment"
     }
 };
 
-let card6 = {
+let card7 = {
     start: {
         id: 10,
         name: "Rossaveel Ferry",
@@ -112,9 +134,10 @@ let card6 = {
     },
     transport: {
         name: "Ferry",
-        seat: false
+        description: "Timetables are subject to alteration without notice due to inclement weather conditions and/or other circumstances"
     }
 };
+
 
 // карточки перемешаны
 travelCardsArr.push(card4);
@@ -122,6 +145,7 @@ travelCardsArr.push(card1);
 travelCardsArr.push(card2);
 travelCardsArr.push(card6);
 travelCardsArr.push(card3);
+travelCardsArr.push(card7);
 travelCardsArr.push(card5);
 
 
