@@ -25,7 +25,6 @@ export default {
                 firstIdx = card;
             }
         }
-        console.log(firstIdx);
         while (sortedCards.length < cards.length){
             let index = travelMap.get(firstIdx);
             sortedCards.push(cards[cardInd.get(index)]);

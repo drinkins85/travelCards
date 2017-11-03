@@ -161,7 +161,6 @@ exports.default = {
             }
         }
 
-        console.log(firstIdx);
         while (sortedCards.length < cards.length) {
             var index = travelMap.get(firstIdx);
             sortedCards.push(cards[cardInd.get(index)]);

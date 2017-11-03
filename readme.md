@@ -1,5 +1,7 @@
 # Travel Cards
 
+## [DEMO](http://this.drinkins.com/travelCards/)
+
 ### Формат карточки
 ```
     start: {
@@ -32,7 +34,7 @@ travelCardsApi.getCards()
 ```
 
 
-`#### sortCards(cardsArray)`
+### `sortCards(cardsArray)`
 
 Принимает несортированный массив карточек, возвращает отсортированный массив карточек.
 
@@ -40,7 +42,7 @@ travelCardsApi.getCards()
 let sortedCards = travelCardsApi.sortCards(unsortedCards);
 ```
 
-`#### routeDescription(cardsArray)`
+### `routeDescription(cardsArray)`
 
 Принимает массив карточек, возвращает словесное описание маршрута в виде массива строк
 
@@ -48,7 +50,7 @@ let sortedCards = travelCardsApi.sortCards(unsortedCards);
 let routeDescription = travelCardsApi.routeDescription(sortedCards);
 ```
 
-`#### addToYaMap(map,cardsArray)`
+### `addToYaMap(map,cardsArray)`
 
 Добавляет точки на карту. Принимает карту и массив карточек.
 
