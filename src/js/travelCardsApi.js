@@ -1,7 +1,8 @@
 import travelCardsArr from './data';
 
 export default {
-    // Получает данные. Возвращает промис
+    // Получает данные
+    // @return {Promise}
     getCards: function () {
         return Promise.resolve(travelCardsArr);
     },

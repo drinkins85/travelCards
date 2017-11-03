@@ -115,7 +115,8 @@ var _data2 = _interopRequireDefault(_data);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = {
-    // Получает данные. Возвращает промис
+    // Получает данные
+    // @return {Promise}
     getCards: function getCards() {
         return Promise.resolve(_data2.default);
     },
