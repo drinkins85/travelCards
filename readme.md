@@ -1,6 +1,6 @@
-#Travel Cards
+# Travel Cards
 
-###Формат карточки
+### Формат карточки
 ```
     start: {
         id: 1, // *ID пункта
@@ -23,7 +23,7 @@
 
 ### Методы API
 
-####`getCards()`
+`#### getCards()`
 
 Получает массив карточек, возвращает промис.
 ```
@@ -32,7 +32,7 @@ travelCardsApi.getCards()
 ```
 
 
-####`sortCards(cardsArray)`
+`#### sortCards(cardsArray)`
 
 Принимает несортированный массив карточек, возвращает отсортированный массив карточек.
 
@@ -40,7 +40,7 @@ travelCardsApi.getCards()
 let sortedCards = travelCardsApi.sortCards(unsortedCards);
 ```
 
-####`routeDescription(cardsArray)`
+`#### routeDescription(cardsArray)`
 
 Принимает массив карточек, возвращает словесное описание маршрута в виде массива строк
 
@@ -48,7 +48,7 @@ let sortedCards = travelCardsApi.sortCards(unsortedCards);
 let routeDescription = travelCardsApi.routeDescription(sortedCards);
 ```
 
-####`addToYaMap(map,cardsArray)`
+`#### addToYaMap(map,cardsArray)`
 
 Добавляет точки на карту. Принимает карту и массив карточек.
 
